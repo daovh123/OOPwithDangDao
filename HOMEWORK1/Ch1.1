@@ -1,0 +1,54 @@
+3.Describe what happens if, in HelloWorld.java, you omit:
+    a.main
+     - identifier excepted
+    b.String
+     - Cannot resolve symbol 'args'
+     - Parameter expected
+     - Identifier expected
+    c.HelloWorld
+     - 'class' or 'interface' expected
+     - Implicitly declared classes are not supported at language level '22'
+    d.System.out
+     - Cannot resolve method 'println' in 'HelloWorld'
+    f.println
+     - Method call expected
+
+4. Describe what happens if, in HelloWorld.java, you omit
+    a.the ;
+     - ';' expected
+    b.the first "
+     - ',' or ')' expected
+     - Cannot resolve symbol 'Hello' and 'World'
+     - Line end not allowed in string literals
+    c.the second "
+     - Line end not allowed in string literals
+    d.the first {
+     - Duplicate class: 'HelloWorld'
+     - '{' expected
+     - 'class' or 'interface' expected
+     - Implicitly declared classes are not supported at language level '22'
+    e. the second {
+     - '{' or ';' expected
+     - Unexpected token
+     - Cannot resolve symbol 'println'
+     - 'class' or 'interface' expected
+    f.the first }
+     - '}' expected
+    g.the second }
+     - '}' expected
+
+5. Describe what happens if, in HelloWorld.java, you misspell (by, say, omitting the second letter)
+    a.main
+     - your program will not run
+    b.String
+     - leading to a compile-time error
+    c.HelloWorld
+     - you will encounter errors when trying to compile or run the program
+    d.System.out
+     - leading to a compile-time error because System-error is not a recognized class:
+    e.println
+     - causing a compile-time error
+
+6. you will be warned:
+    - Method 'main()' does not have signature 'public static void main(String[])'
+  String[] args is requied
