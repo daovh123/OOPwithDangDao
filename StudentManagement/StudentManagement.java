@@ -7,7 +7,6 @@ public class StudentManagement {
 
     /**
      * Kiem tra 2 sinh vien cung nhom hay khong.
-     *
      * @param s1 la tham so thu 1.
      * @param s2 la tham so thu 2.
      * @return true neu 2 sinh vien cung nhom va nguoc lai.
@@ -18,7 +17,6 @@ public class StudentManagement {
 
     /**
      * add new student to array.
-     *
      * @param newStudent is new student.
      */
     public void addStudent(Student newStudent) {
@@ -28,7 +26,6 @@ public class StudentManagement {
 
     /**
      * Ham in ra cac sinh vien theo thu tu ten lop.
-     *
      * @return tra ve string chua danh sach in theo yeu cau.
      */
     public String studentsByGroup() {
@@ -55,9 +52,8 @@ public class StudentManagement {
     }
 
     /**
-     * Ham xoa sinh vien khoi dannh sach
-     *
-     * @param id la id cua sinh vien
+     * Ham xoa sinh vien khoi dannh sach.
+     * @param id la id cua sinh vien.
      */
 
     public void removeStudent(String id) {
@@ -72,6 +68,10 @@ public class StudentManagement {
         }
     }
 
+    /**
+     * ham test.
+     * @param args la gi do.
+     */
     public static void main(String[] args) {
         StudentManagement sm = new StudentManagement();
         Student s1 = new Student("Nva", "1702001", "1702001@vnu.edu.vn");

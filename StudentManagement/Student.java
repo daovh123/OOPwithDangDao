@@ -5,88 +5,80 @@ public class Student {
     private String email;
 
     /**
-     * ham lay ten student
-     *
-     * @return ten student
+     * ham lay ten student.
+     * @return ten student.
      */
     public String getName() {
         return name;
     }
 
     /**
-     * ham lay ten student
-     *
-     * @return ten student
+     * set name.
+     * @param name la name.
      */
     public void setName(String name) {
         this.name = name;
     }
 
     /**
-     * ham lay id student
-     *
-     * @return id student
+     * ham lay id student.
+     * @return id student.
      */
     public String getId() {
         return id;
     }
 
     /**
-     * ham set id student
-     *
-     * @return id student
+     * set id.
+     * @param id la id.
      */
     public void setId(String id) {
         this.id = id;
     }
 
     /**
-     * ham lay group student
-     *
-     * @return group student
+     * ham lay group student.
+     * @return group student.
      */
     public String getGroup() {
         return group;
     }
 
     /**
-     * ham set group student
-     *
-     * @return group student
+     * set group.
+     * @param group la group.
      */
     public void setGroup(String group) {
         this.group = group;
     }
 
     /**
-     * ham lay email student
-     *
-     * @return email student
+     * ham lay email student.
+     * @return email student.
      */
     public String getEmail() {
         return email;
     }
 
     /**
-     * ham set email student
-     *
-     * @return email student
+     * set email.
+     * @param email set email.
      */
     public void setEmail(String email) {
         this.email = email;
     }
 
     /**
-     * ham info ten student
-     *
-     * @return chuoi ttin cua student
+     * lay info sinh vien.
+     * @return info sinh vien.
      */
+
     public String getInfo() {
         return this.name + " - " + this.id + " - " + this.group + " - " + this.email;
     }
 
     /**
-     * Phuong thuc khoi tao mac dinh student
+     * khoi tao mac dinh.
      */
     public Student() {
         this.name = "Student";
@@ -96,11 +88,10 @@ public class Student {
     }
 
     /**
-     * Ham nhan thong tin student
-     *
-     * @param name  la ten
-     * @param id    la id student
-     * @param email la dia chia email cua student
+     * Ham nhan thong tin student.
+     * @param name  la ten.
+     * @param id    la id student.
+     * @param email la dia chia email cua student.
      */
     public Student(String name, String id, String email) {
         this.name = name;
@@ -110,9 +101,8 @@ public class Student {
     }
 
     /**
-     * ham gan thong tin cho student
-     *
-     * @param s la student can gan
+     * ham gan thong tin cho student.
+     * @param s la student can gan.
      */
     public Student(Student s) {
         this.name = s.name;
